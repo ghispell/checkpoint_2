@@ -38,6 +38,7 @@ const AddCountry = () => {
       <Box
         display="flex"
         justifyContent="space-between"
+        flexDirection={{ xs: "column", sm: "row" }}
         alignItems="center"
         gap={2}
       >

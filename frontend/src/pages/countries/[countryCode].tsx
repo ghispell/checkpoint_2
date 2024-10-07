@@ -15,7 +15,6 @@ const Country = () => {
   const country = data.country;
   return (
     <>
-      <Header />
       <div className="flex justify-center items-center">
         <div className="flex justify-center items-center flex-col">
           <div className="text-9xl">{country.emoji}</div>

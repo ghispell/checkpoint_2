@@ -15,14 +15,13 @@ export default function Home() {
 
   return (
     <>
-      <Header />
       <div className="flex justify-center items-center">
         <div className="py-4 bg-slate-200 w-1/2 border-slate-400 border">
           <AddCountry />
         </div>
       </div>
 
-      <div className="flex gap-4 pt-10 justify-center">
+      <div className="flex gap-4 pt-10 justify-center flex-wrap">
         {countries.map((country: Country) => (
           <CountryCard key={country.id} country={country} />
         ))}
